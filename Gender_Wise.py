@@ -49,13 +49,9 @@ for i in range(0,3):
   d2=count_gender[i]
   for key in d1:
     d1[key]/=(d2[key]+1)
-
-### The x_gender is of type [[date,gender]] type 
-### The y_gender is respective prediction
     
 x_gender=[]
 y_gender=[]
-
 
 for i in range(0,3):
   d=dict_gender[i]
