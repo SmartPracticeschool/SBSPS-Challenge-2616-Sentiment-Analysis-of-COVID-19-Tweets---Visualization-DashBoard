@@ -71,4 +71,16 @@ for i in range(0,3):
   y_gender.append(y11)
 
 
+x_gender_fin=[]
+y_gender_fin=[]
+for i in range(0,3):
+  for j in range(0,len(x_gender[i])):
+    r=x_gender[i][j]
+    r.append(i)
+    x_gender_fin.append(r)
+    y_gender_fin.append(y_gender[i][j])
+
+####  Now x_gender_fin and y_gender_fin is prepared for training 
+####  x_gender_fin is of the format [[date,gender]]
+####  y_gender_fin contains corresponding prediction for the date and gender given
 
