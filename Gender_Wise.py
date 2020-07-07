@@ -1,4 +1,4 @@
-### We will create a dictionary of dicionary with 3 keys for gender 0 - male,1 - female, 2- unknown 
+### We will create a dictionary of dicionary with 3 keys for gender 0 - male,1 - female, 2- third gender
 ### further for each key there is a dctionary with keys as date
 ### dict_gender is for storing the mean sentiments for each gender for each day
 ### count_gender is for storing the number of tweets for each gender for each day
