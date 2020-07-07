@@ -5,6 +5,7 @@ from nltk.corpus import wordnet
 lemmatizer = WordNetLemmatizer()
 
 ''' This function assigns the wordnet tag of pos tag'''
+''' The nltk pos tags for adjective is JJ and for verb is VRB and for Noun is NN and for adverb is RB''' 
 def nltk_tag_to_wordnet(nltk_tag):
     if nltk_tag.startswith('J'):
         return wordnet.ADJ
