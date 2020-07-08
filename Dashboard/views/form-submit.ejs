@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Prediction Model</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="container">
+
+    <nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+  <span class="glyphicon glyphicon-scale" aria-hidden="true"></span>  COVID-19
+    IBM HACK-2020
+  </a>
+</nav>
+
+
+    <div class="jumbotron">
+    <h2> Sentiment Analysis Duing COVID-19 Pandamic <span class="badge badge-secondary">New</span></h2>
+
+     
+    <h4> Prediction </h4> <p>  <%= query["values"] %> </p>
+
+    </div>
+
+
+    <div>
+      
+      <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Starting</th>
+      <th scope="col">End</th>
+      <th scope="col">Sentiment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>-1</td>
+      <td>0.2</td>
+      <td>Negative</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>0.2</td>
+      <td>0.6</td>
+      <td>Neutral</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>0.61</td>
+      <td>1</td>
+      <td>Happy</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+
+     <div class="jumbotron">
+
+     <h5 style="padding: 20px; margin-left: 100px"> Happy <span style='font-size:100px; padding: 20px'>&#128519;</span> 
+          Neutral <span style='font-size:100px; padding: 20px'>&#128528;</span> 
+
+          Negative <span style='font-size:100px; padding: 20px'>&#128542;</span> </h5>
+
+    </div>
+
+
+  </div>
+
+  <div class="row">
+      <div class="col-md-5">
+
+        <form method="get" action="/">
+          <!-- <div class="form-group"> -->
+            <!-- <label for="dateInput"> Date </label> -->
+            <!-- <input type="Date" class="form-control" id="dateInput" placeholder="Enter Date" name="Date"> -->
+
+            <!-- <label for="stateInput"> State </label> -->
+            <!-- <input type="number" class="form-control" id="stateInput" placeholder="Enter State" name="State"> -->
+
+
+          <!-- </div> -->
+          <button type="submit" class="btn btn-dark btn-lg">GO Back</button>
+        </form>
+
+        </div>
+
+
+    
+
+      </div>
+
+    
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>

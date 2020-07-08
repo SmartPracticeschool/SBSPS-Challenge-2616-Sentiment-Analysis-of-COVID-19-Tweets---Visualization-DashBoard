@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Covid 19 Sentiment Analysis</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+<body>
+  <div class="container">
+
+ <!-- Image and text -->
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+  <span class="glyphicon glyphicon-scale" aria-hidden="true"></span>  COVID-19
+    IBM HACK-2020
+  </a>
+</nav>
+
+<div class="row">
+      <div class="col-md-5">
+
+    
+          <iframe src="https://us1.ca.analytics.ibm.com/bi/?perspective=dashboard&amp;pathRef=.my_folders%2FSAT&amp;ui_appbar=false&amp;ui_navbar=false&amp;shareMode=embedded&amp;action=view&amp;mode=dashboard&amp;subView=model0000017328f14c50_00000002" width="1100px" height="700px" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+          
+        </div>
+      </div>
+
+
+<div class="jumbotron">
+<h2> Sentiment Analysis Duing COVID-19 Pandamic <span class="badge badge-secondary">New</span></h2>
+    <!-- <h3>Please enter your name</h3> -->
+
+    <div class="row">
+      <div class="col-md-5">
+
+        <form method="post" action="/form-submit">
+          <div class="form-group">
+            <label for="dateInput"> Date </label>
+            <input type="Date" class="form-control" id="dateInput" placeholder="Enter Date" name="Date">
+
+            <label for="stateInput"> State </label>
+            <input type="number" class="form-control" id="stateInput" placeholder="Enter State" name="State">
+
+
+          </div>
+          <button type="submit" class="btn btn-dark btn-lg">Submit</button>
+        </form>
+
+        </div>
+
+
+    
+
+      </div>
+    </div>
+
+<!-- 'KL', 'MH', 'RJ', 'KA', 
+  'GA', 'MP', 'UP', 
+  'GJ', 'TN', 'JK', 'PY', 'HR', 
+  'AP', 'WB', 'CT', 'OR', 
+  'JH', 'AS', 'HP', 'AR', 'TR', 'UT', 'CH', 'DL'] -->
+    <div class="alert alert-dark" role="alert">
+  Better to wear a mask than a ventilator; better to stay at home than in an ICU!
+</div>
+  
+  <table class="table table">
+  <thead class="thead thead-dark">
+    <tr>
+      <!-- <th scope="col">#</th> -->
+      <th scope="col">Number</th>
+      <th scope="col">State</th>
+
+      <th scope="col">Number</th>
+      <th scope="col">State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>KL</td>
+
+      <td>13</td>
+      <td>HR</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>MH</td>
+      <td>14</td>
+      <td>AP</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>RJ</td>
+      <td>15</td>
+      <td>WB</td>
+    </tr>
+
+    <tr>
+      <th scope="row">4</th>
+      <td>KA</td>
+      <td>16</td>
+      <td>CT</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>GA</td>
+      <td>17</td>
+      <td>OR</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>MP</td>
+      <td>18</td>
+      <td>JH</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>UP</td>
+      <td>19</td>
+      <td>AS</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>GJ</td>
+      <td>20</td>
+      <td>HP</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>TN</td>
+      <td>21</td>
+      <td>AR</td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>JK</td>
+      <td>22</td>
+      <td>TR</td>
+    </tr>
+    <tr>
+      <th scope="row">11</th>
+      <td>PY</td>
+      <td>23</td>
+      <td>UT</td>
+    </tr>
+
+     <tr>
+      <th scope="row">12</th>
+      <td>CH</td>
+      <td>24</td>
+      <td>DL</td>
+    </tr>
+
+  </tbody>
+</table>
+
+
+
+
+
+  </div>>
+ 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

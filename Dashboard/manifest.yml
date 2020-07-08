@@ -1,0 +1,4 @@
+---
+applications:
+ - name: SAT
+   memory: 64M
