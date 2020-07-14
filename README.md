@@ -6,3 +6,5 @@
 4)Then you need to open the sentiment prediction folder where there are 3 folders present each for genderwise,statewise and overall prediction. Also each folder contains one 
 python file for generating dataset according to the category and other for prediction.
 5)Then you need have the dashboard folder which contains the files for running the dashboard.
+
+https://drive.google.com/file/d/11xH92jbd6gzBgADNNMZOzkwsweOOMU-j/view?usp=sharing
